@@ -1,0 +1,27 @@
+.menu-toolbar {
+  background: linear-gradient(5deg, black, #383838);
+  border-bottom: 2px solid #000000;
+  justify-content: center;
+  padding-left: 0;
+  height: 3em;
+  position: fixed;
+  z-index: 100;
+}
+.menu-button {
+  color: white;
+  border-radius: 5px;
+  overflow: hidden;
+  height: 70%;
+  width: 18%;
+  margin: 1%;
+  margin-top: auto;
+  margin-bottom: auto;
+  outline: none;
+}
+.active {
+  border: 2px solid rgb(0, 238, 255);
+}
+
+.menu-button:hover {
+  background-color: rgb(53, 53, 53);
+}

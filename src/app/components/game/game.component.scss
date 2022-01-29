@@ -1,0 +1,67 @@
+.game-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.game-btn {
+  border: 6px solid #00c0c5;
+  border-radius: 50%;
+  background: linear-gradient(5deg, black, #383838);
+  padding: 10%;
+  width: 20%;
+  transition: border 0.3s;
+  outline: none;
+}
+
+.save-btn {
+  border-radius: 5px;
+  width: 15%;
+  position: absolute;
+  border: 5px solid #00c0c5;
+  bottom: 10%;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 3px;
+  outline: none;
+  padding: 1%;
+  background: #0c97cc;
+}
+
+.game-container div {
+  color: white;
+  top: 20%;
+  font-size: 5vw;
+  font-weight: bold;
+  text-shadow: 0px 0px 4px black;
+  position: absolute;
+}
+
+.game-container h1 {
+  color: white;
+  position: absolute;
+  text-shadow: 0px 0px 5px black;
+  bottom: 15%;
+}
+
+.game-btn:hover {
+  background: linear-gradient(5deg, rgb(19, 19, 19), #4b4b4b);
+  cursor: pointer;
+}
+
+.save-btn:hover {
+  cursor: pointer;
+  background: #09729b;
+}
+
+.save-btn:disabled {
+  background: gray;
+  cursor: default;
+}
+
+.game-btn:active {
+  border: 60px solid #00c0c5;
+}
